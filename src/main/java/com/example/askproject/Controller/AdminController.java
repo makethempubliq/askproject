@@ -36,8 +36,6 @@ public class AdminController {
     private PageService pageService;
     @Autowired
     private QuestionService questionService;
-    @Autowired
-    private UserServiceSecurity userServiceSecurity;
 
     @GetMapping("/main")
     public String getMainPage(Model model, Authentication authentication) throws Exception{

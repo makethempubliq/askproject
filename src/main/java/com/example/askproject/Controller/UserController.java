@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.example.askproject.Exception.PageException;
 import com.example.askproject.Exception.UserException;
 import com.example.askproject.Model.DTO.AnswerDTO;
 import com.example.askproject.Model.DTO.MessageDTO;

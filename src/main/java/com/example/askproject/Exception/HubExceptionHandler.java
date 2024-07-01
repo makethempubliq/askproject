@@ -18,6 +18,6 @@ public class HubExceptionHandler {
         String errorMessage = exceptionTypes.getMsg();
         log.error("message: " + errorMessage);
         errorMessage = URLEncoder.encode(errorMessage, "UTF-8");
-        response.sendRedirect("/?error=true&exception="+errorMessage);
+        response.sendRedirect("/user/main?error=true&exception="+errorMessage);
     }
 }

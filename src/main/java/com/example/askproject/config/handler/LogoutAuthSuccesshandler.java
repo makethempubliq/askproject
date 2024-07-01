@@ -9,8 +9,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 import org.springframework.stereotype.Component;
 
-import com.example.askproject.Exception.UserException;
-import com.example.askproject.Service.UserService;
 import com.example.askproject.Service.UserServiceSecurity;
 
 import jakarta.servlet.ServletException;
